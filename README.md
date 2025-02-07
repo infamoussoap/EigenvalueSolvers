@@ -1,3 +1,4 @@
+# Fast solver to find the extreme eigenvalue
 I present a simple code that allows one to compute the maximum and minimum eigenvalues of a positive definite matrix in Python.
 The code is faster than `scipy.sparse.linalg.eigsh`, providing results that converge while `scipy.sparse.linalg.eigsh` doesn't.
 
